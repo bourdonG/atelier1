@@ -2,7 +2,9 @@ CAPTURE 1
 
 1.
 Capgchamb6.goffinet.net, on trouve l’information à plusieurs endroits, dans GNS3 mais également dans OpenVPN.
+
 On ouvre la topologie (lan-simple-cisco).
+
 Démarrage du router Cisco en premier lieu, jusqu’à récupérer l’invite de commande dans la console.
 Puis démarrage des terminaux (PC Unbuntu).
 
@@ -76,6 +78,6 @@ dig -t TXT o-o.myaddr.l.google.com +short -4
 Pour la deuxième transaction, c’est la réponse soit : "51.15.223.171"
 
 5.
-Pour la première question, elle est posée à ns1.google.com (216.239.32.10)
+Pour la première question, elle est posée à ns1.google.com (216.239.32.10).
 La deuxième, elle est posée à pc2 (192.168.1.2)
 
