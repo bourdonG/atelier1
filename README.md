@@ -20,11 +20,11 @@ On capture le trafic en faisant un clic droit sur la liaison qui connecte le PC2
 
 Résultat de la commande :
 
-root@pc2:~# curl http://capgchamb6.goffinet.net:8003
+**root@pc2:~# curl http://capgchamb6.goffinet.net:8003
 {
   name: "capgchamb6.goffinet.net"
   ipv4: "51.15.223.171"
-}
+} **
 
 Voir capture1.pcapng
 
