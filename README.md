@@ -1,12 +1,12 @@
 CAPTURE 1
 
 1.
-Capgchamb6.goffinet.net, on trouve l’information à plusieurs endroits, dans GNS3 mais également dans OpenVPN
-On ouvre la topologie (lan-simple-cisco)
+Capgchamb6.goffinet.net, on trouve l’information à plusieurs endroits, dans GNS3 mais également dans OpenVPN.
+On ouvre la topologie (lan-simple-cisco).
 Démarrage du router Cisco en premier lieu, jusqu’à récupérer l’invite de commande dans la console.
-Puis démarrage des terminaux (PC Unbuntu)
+Puis démarrage des terminaux (PC Unbuntu).
 
-On se connecte sur PC2 suivant les logins root//testtest
+On se connecte sur PC2 suivant les logins root//testtest.
 On installe le programme « curl » sur la machine virtuelle -> apt install curl
 
 La commande ‘’ curl http://capgchamb6.goffinet.net:8003 ‘’permet de faire une requête HTTP avec la méthode GET sur l’url en question.
